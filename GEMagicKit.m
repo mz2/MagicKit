@@ -125,7 +125,7 @@ const char *magicFilePathForiOS() {
             [typeHierarchy addObjectsFromArray:superTypeHierarchy];
         }
     } else {
-        typeHierarchy = [NSArray arrayWithObject:superTypes]; // superTypes is actually a string
+        typeHierarchy = [NSMutableArray arrayWithObject:superTypes]; // superTypes is actually a string
     }
     
     return typeHierarchy;
