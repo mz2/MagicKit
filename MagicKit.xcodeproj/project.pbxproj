@@ -562,7 +562,7 @@
 				GCC_PREFIX_HEADER = MagicKit_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "";
-				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = MagicKit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -587,7 +587,7 @@
 				GCC_PREFIX_HEADER = MagicKit_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "";
-				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = MagicKit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -654,7 +654,7 @@
 				GCC_PREFIX_HEADER = MagicKit_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "";
-				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = MagicKit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
