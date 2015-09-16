@@ -421,7 +421,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "MagicKit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -563,6 +563,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glassechidna.${PRODUCT_NAME:rfc1034Identifier}";
 				PRODUCT_NAME = MagicKit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -588,6 +589,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glassechidna.${PRODUCT_NAME:rfc1034Identifier}";
 				PRODUCT_NAME = MagicKit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -601,6 +603,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -655,6 +658,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glassechidna.${PRODUCT_NAME:rfc1034Identifier}";
 				PRODUCT_NAME = MagicKit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -726,6 +730,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glassechidna.${PRODUCT_NAME:rfc1034Identifier}";
 				PRODUCT_NAME = MagicKit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
