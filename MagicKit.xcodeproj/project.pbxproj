@@ -698,6 +698,151 @@
 			};
 			name = Testing;
 		};
+		5F511A821BB756A4005E4A2E /* AppStoreDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "58294F57-1CCD-4C85-9B13-A11C463A08E8";
+				SDKROOT = macosx;
+			};
+			name = AppStoreDebug;
+		};
+		5F511A831BB756A4005E4A2E /* AppStoreDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MagicKit_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "";
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glassechidna.${PRODUCT_NAME:rfc1034Identifier}";
+				PRODUCT_NAME = MagicKit;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = AppStoreDebug;
+		};
+		5F511A841BB756A4005E4A2E /* AppStoreDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRIVATE_HEADERS_FOLDER_PATH = ./;
+				PRODUCT_NAME = "MagicKit-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = ./;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AppStoreDebug;
+		};
+		5F511A851BB756A4005E4A2E /* AppStoreDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = ./;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = MagicKitTest;
+			};
+			name = AppStoreDebug;
+		};
+		5F511A861BB756AA005E4A2E /* AppStoreRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PROVISIONING_PROFILE = "58294F57-1CCD-4C85-9B13-A11C463A08E8";
+				SDKROOT = macosx;
+			};
+			name = AppStoreRelease;
+		};
+		5F511A871BB756AA005E4A2E /* AppStoreRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MagicKit_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "";
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glassechidna.${PRODUCT_NAME:rfc1034Identifier}";
+				PRODUCT_NAME = MagicKit;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = AppStoreRelease;
+		};
+		5F511A881BB756AA005E4A2E /* AppStoreRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = "MagicKit-iOS";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ZERO_LINK = NO;
+			};
+			name = AppStoreRelease;
+		};
+		5F511A891BB756AA005E4A2E /* AppStoreRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = MagicKitTest;
+				ZERO_LINK = NO;
+			};
+			name = AppStoreRelease;
+		};
 		5F5865CE1AC8648B000DC9D4 /* Internal */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -841,9 +986,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB91AE08733DA50010E9CD /* Debug */,
+				5F511A831BB756A4005E4A2E /* AppStoreDebug */,
 				5F5865CF1AC8648B000DC9D4 /* Internal */,
 				5F4DF39418E7859500E7D65A /* Testing */,
 				1DEB91AF08733DA50010E9CD /* Release */,
+				5F511A871BB756AA005E4A2E /* AppStoreRelease */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -852,9 +999,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB91B208733DA50010E9CD /* Debug */,
+				5F511A821BB756A4005E4A2E /* AppStoreDebug */,
 				5F5865CE1AC8648B000DC9D4 /* Internal */,
 				5F4DF39318E7859500E7D65A /* Testing */,
 				1DEB91B308733DA50010E9CD /* Release */,
+				5F511A861BB756AA005E4A2E /* AppStoreRelease */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -863,9 +1012,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDC92A8512618AE90012DE28 /* Debug */,
+				5F511A841BB756A4005E4A2E /* AppStoreDebug */,
 				5F5865D01AC8648B000DC9D4 /* Internal */,
 				5F4DF39518E7859500E7D65A /* Testing */,
 				DDC92A8612618AE90012DE28 /* Release */,
+				5F511A881BB756AA005E4A2E /* AppStoreRelease */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -874,9 +1025,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDC92C0712619C1F0012DE28 /* Debug */,
+				5F511A851BB756A4005E4A2E /* AppStoreDebug */,
 				5F5865D11AC8648B000DC9D4 /* Internal */,
 				5F4DF39618E7859500E7D65A /* Testing */,
 				DDC92C0812619C1F0012DE28 /* Release */,
+				5F511A891BB756AA005E4A2E /* AppStoreRelease */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
